@@ -12,23 +12,30 @@ ul{
  text-decoration: none;
 
 }
-.cabecera{
-    background-image: url('./../testImg2.jpg');
+.banner{
+    background-image: url('./../img/testImg2.jpg');
+    height: 50vh;
+    margin: 10px 0;
 }
-.cabecera h1{
-color: blue;
-}
-.header2 p{
-    color: aqua;
-}
-body{
-    border: 5px solid red;
 
+.textBanner{
+    text-align: center;
 }
+
 .footerSidebar{
     background-color: #172054;
-margin: 0%;
-padding: 50px 0px;
-width: 100%;
+    margin: 0%;
+    padding: 50px 0px;
+    width: 100%;
 }
 
+.servicios{
+    text-align: center;
+}
+
+.cardPropia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 60px;
+}
