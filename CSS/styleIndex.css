@@ -2,31 +2,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* background-color: #eff5ff;     */
 }
 
-header{
-    display:flex;
-}
+
 ul{
  list-style: none;
  text-decoration: none;
+} 
 
-}
+
 .banner{
     background-image: url('./../img/testImg2.jpg');
     height: 50vh;
     margin: 10px 0;
 }
 
-.textBanner{
-    text-align: center;
+.linea{
+    height: 5px;
+    width: 50%;
+    background-color: black;
+    margin-left: 25%;    
 }
 
-.footerSidebar{
-    background-color: #172054;
-    margin: 0%;
-    padding: 50px 0px;
-    width: 100%;
+.textBanner{
+    text-align: center;
+    padding-top: 10%;
 }
 
 .servicios{
@@ -38,4 +39,17 @@ ul{
     flex-wrap: wrap;
     justify-content: center;
     margin: 30px 60px;
+}
+
+.footerSocial{
+    background-color: #172054;
+    margin: 0%;
+    padding: 50px 200px;
+    width: 100%;
+    color: aliceblue;
+}
+
+.footerCopyright{
+    padding: 25px 0px;
+    text-align:center;
 }
