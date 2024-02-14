@@ -6,9 +6,15 @@
 }
 
 
+.contenidoMenu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
 ul{
- list-style: none;
- text-decoration: none;
+    list-style: none;
+    text-decoration: none;
 } 
 
 
@@ -44,15 +50,60 @@ ul{
     margin: 30px 60px;
 }
 
-.footerSocial{
+.card{
+    margin: 0px 15px;
+}
+
+
+.tecUtilizadas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.infoTec{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
     background-color: #172054;
-    margin: 0%;
-    padding: 50px 200px;
-    width: 100%;
     color: aliceblue;
 }
 
+.navegacionFooter{
+    display: flex;
+    justify-content: center;
+    gap: 135px;
+    padding: 10px;
+    margin: 35px 68px;
+}
+
+.lista1 ul li, .lista2 ul li{
+    list-style: none;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 23.38px;
+    font-weight: 400;
+}
+.lista1 a, .lista2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
 .footerCopyright{
+    background-color: aliceblue;
+    color: black;
     padding: 25px 0px;
     text-align:center;
+    width: 100%;
+    display: inline-block;
 }
