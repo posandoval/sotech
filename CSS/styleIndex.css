@@ -49,12 +49,12 @@ ul{
 
 /* <!--Tecnologias Utilizadas-->
  */
- .infoTec{
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: column;
-     align-items: center;
- }
+.infoTec{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
 .cardPropia{
     display: flex;
     flex-wrap: wrap;
@@ -74,21 +74,32 @@ ul{
 /* <!--Test Circle-->*/
 .divTestCircle{
     display: flex;
-    justify-content: center;
-    text-align: center;         
-}
-
-.cardJava{
-    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
 }
 
- .cardImgJava{
+.groupOne, .groupTwo, .groupThree{
     display: flex;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  } 
+    flex-wrap: wrap;
+}
+
+
+
+.cardJava{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.cardImgJava{
+    display: flex;
+    border-radius: 50%;
+    width: 80px;
+    height: 100px;
+} 
 
 
 
