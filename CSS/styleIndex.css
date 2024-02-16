@@ -6,6 +6,9 @@
 }
 
 
+/* <!--Barra de Navegacion-->
+ */
+
 .contenidoMenu{
     display: flex;
     flex-wrap: wrap;
@@ -24,7 +27,7 @@ ul{
     margin: 10px 0;
 }
 
-.linea{
+.lineBanner{
     height: 5px;
     width: 50%;
     background-color: black;
@@ -43,18 +46,24 @@ ul{
     text-align: center;
 }
 
+
+/* <!--Tecnologias Utilizadas-->
+ */
+ .infoTec{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     align-items: center;
+ }
 .cardPropia{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 30px 60px;
 }
-
 .card{
     margin: 0px 15px;
 }
-
-
 .tecUtilizadas{
     display: flex;
     flex-direction: column;
@@ -62,14 +71,29 @@ ul{
     justify-content: center;
 }
 
-.infoTec{
+/* <!--Test Circle-->*/
+.divTestCircle{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
+    text-align: center;         
+}
+
+.cardJava{
+    padding: 10px;
     align-items: center;
 }
 
-footer{
+ .cardImgJava{
+    display: flex;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  } 
+
+
+
+/* <!--Footer-->*/
+ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
