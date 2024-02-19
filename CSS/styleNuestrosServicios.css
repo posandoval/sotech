@@ -1,0 +1,92 @@
+.navbar{
+    background-color:#bfd6fe;
+}
+.contenidoNavbar{
+    border: solid 5px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center;*/ 
+       /* justify-content: center; */
+/* flex-direction: column-reverse; */
+justify-content: flex-end;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+  }
+
+ul.listaContenidoNavbar li{
+    display: inline;
+    
+}
+
+/* .listaContenidoNavbar{
+    border: solid 5px;
+    list-style: none;
+    text-decoration: none;
+     justify-content: center;
+flex-direction: column;
+align-items: center; 
+}
+*/
+
+/* main */
+
+main{
+    border: blue solid 3px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    min-height: 100vh;
+}
+
+.infoNuestrosServicios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nsFila1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nsImg{
+width: 250px;
+height: 250px;
+}
+
+
+
+/* footer */
+footer{
+ border: solid 5px;
+    background-color: #172054;
+        align-items: center; 
+    margin-top: auto;
+}
+
+ .navegacionFooter{
+    display: flex;
+    justify-content: center;
+    color:aliceblue;
+ 
+}
+
+ .lista1 ul li , .lista2 ul li{
+    list-style: none;
+    text-decoration: none;
+    color:aliceblue;
+
+}
+
+ .copyright{
+    border: solid red 3px;
+    display:flex;
+    justify-content: center;
+    background-color: aliceblue;
+    color: black;
+ }
